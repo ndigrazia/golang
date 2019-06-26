@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type empty interface{}
 
@@ -24,4 +26,5 @@ func main() {
 	// This will panic  at run time
 	//var e example = i.(example) //Assertion
 	//fmt.Printf("%d\n", e.(empty).(int))
+
 }
